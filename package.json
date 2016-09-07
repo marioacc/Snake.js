@@ -1,0 +1,26 @@
+{
+  "name": "snake.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "^2.0.6",
+    "gulp-server-livereload": "^1.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioacc/Snake.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marioacc/Snake.js/issues"
+  },
+  "homepage": "https://github.com/marioacc/Snake.js#readme"
+}

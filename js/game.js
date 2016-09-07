@@ -28,7 +28,8 @@ var Game = {
 
         cursors = game.input.keyboard.createCursorKeys();
 
-        game.stage.backgroundColor = '#061f27';
+        // game.stage.backgroundColor = '#061f27';
+        game.stage.backgroundColor = '#ffffff';
 
 
         for(var i = 0; i < 5; i++){

@@ -4,11 +4,15 @@ var Menu= {
     },
 
     create: function(){
-        this.add.button(0,0,"menu", this.startGame, this);
+        game.backgroundColor = '#061f27';
+        this.add.button(game.world.centerX, game.world.centerY,"menu", this.startGame, this); 
+        game.scale.fullScreenScaleMode= Phaser.ScaleManager.EXACT_FIT;
+
     },
 
     startGame: function(){
+        game.scale.startFullScreen(true,true);
         this.state.start("Game");
-        this.state.start("Game");
+
     }
 };
